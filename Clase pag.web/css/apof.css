@@ -1,0 +1,10 @@
+
+body {
+    background-image: url(../imagenes/apofwall.jpg);
+    color: rgb(0, 0, 0);
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+}

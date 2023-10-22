@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pixelify+Sans&display=swap');
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+    row-gap: 50px;
+}
+
+main a {
+    text-align: left;
+    font-size: 50px;
+    color: white;
+    display: inline-block;
+    transition: transform 0.1s;
+}
+
+  main a:hover {
+    transform: scale(1.2);
+}
+
+footer a {
+    font-size: 30px;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+}
+
+p {
+    text-align: right;
+    color: aliceblue;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
