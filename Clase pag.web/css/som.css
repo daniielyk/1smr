@@ -1,11 +1,22 @@
 
 body {
-    background-image: url(../imagenes/somwall.jpg);
-    color: white;
+    background-image: url(../html/som/imagenes/tema1somwall.jpg);
     margin: 50px;
     font-size: larger;
 }
 
 h1 {
     text-align: center;
+    color: white;
+}
+
+div {
+    background-color: rgb(15, 167, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
 }
