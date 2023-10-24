@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pixelify+Sans&display=swap);
 header {
-    background-color: white;
+    background-color: azure;
     text-align: center;
     color: rgb(0, 0, 0);
     padding: 20px;
@@ -10,7 +10,7 @@ header {
 
 body {
     font-family: 'Pixelify Sans', sans-serif;
-    background-color: black;
+    background-image: url(../imagenes/indexwall.avif) ;
 }
 
 main {
