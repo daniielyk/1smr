@@ -19,6 +19,10 @@ a {
     color: #ffffff;
 }
 
+img {
+    color: rgb(255, 159, 255);
+}
+
 h1 {
     text-align: center;
 }
