@@ -3,7 +3,7 @@ body {
     background-color: lightseagreen;
     font-size: 30px;
     text-align: center;
-    display: flex;
+    display: grid;
     justify-content: center;
     padding: 50px;
     font-family: 'Orbitron', sans-serif;
