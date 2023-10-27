@@ -21,6 +21,7 @@ body {
     height: 0;
     overflow: hidden;
 }
+
 #miDiv:hover #linksDiv {
     height: 40px; /* Cambia la altura al pasar el cursor sobre el div */
     transition: 0.5s;
