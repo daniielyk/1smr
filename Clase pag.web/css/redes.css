@@ -4,8 +4,36 @@ body {
     color: white;
     margin: 50px;
     font-size: 30px;
+    justify-content: center;
+    display: grid;
 }
 
 a {
-    color: white;
+    color: rgb(210, 255, 214);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: aquamarine;
+}
+
+#miDiv {
+    width: 1000px;
+    background-color: rgb(30, 168, 111);
+    overflow: hidden;
+    transition: height 0.2s; /* Agregamos una transición suave para un efecto animado */
+    border-radius: 20px;
+    text-align: center;
+}
+
+#linksDiv {
+    height: 0;
+    overflow: hidden;
+}
+
+#miDiv:hover #linksDiv {
+    height: 40px; /* Cambia la altura al pasar el cursor sobre el div */
+    transition: 0.5s;
+    padding: 30px;
 }
