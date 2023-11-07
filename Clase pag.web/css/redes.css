@@ -1,8 +1,9 @@
 
 body {
-    background: url(../imagenes/redeswall.webp);
+    background: url(../imagenes/redeswall.webp) ;
     color: white;
     margin: 50px;
+    font-size: 30px;
 }
 
 a {
