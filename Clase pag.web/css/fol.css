@@ -1,29 +1,23 @@
 
 body {
-    background: url(../imagenes/folwall.jpg) fixed no-repeat; 
-    color: white;
-    font-size: 20px;
-}
-
-h1 {
+    background: url(../imagenes/folwall.jpg) fixed no-repeat;
+    font-size: 30px;
     text-align: center;
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+    font-family: 'Orbitron', sans-serif;
+    color: aliceblue;
 }
 
-h2 {
-    margin-left: 450px;
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
-h3 {
-    margin-left: 450px;
+div {
+    background: linear-gradient(rgb(196, 193, 255), rgb(83, 109, 255));
+    border-radius: 10px;
+    height: 100px;
+    width: 600px;
 }
-
-p {
-    
-    margin-left: 500px;
-    margin-right: 200px;
-}
-
-ol {
-    margin-left: 450px;
-}
-
