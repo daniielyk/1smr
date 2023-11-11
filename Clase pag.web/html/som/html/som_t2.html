@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title> Generaciones de los ordenadores </title>
+    <link rel="stylesheet" href="../css/Tema1.css">
+</head>
+<body>
+    <h2>GENERACIONES DE LOS ORDENADORES</h2>
+
+    <ol>
+        <li><strong>Primera generación (1940-1959):</strong> (ENIAC) estos eran muy grandes y poco óptimos, con un alto consumo energético, está compuesto por tubos de vacío. El UNIVAC 1 es el primer ordenador con fines comerciales. Aparece el primer lenguaje de programación (lenguaje ensamblador).</li>
+        <li><strong>Segunda generación (1960-1965):</strong> empezaron a tener transistores y se vuelven más pequeños y económicos. Aparece el concepto de periféricos.</li>
+        <li><strong>Tercera generación(1966-1971):</strong> Eran monousuarios, concepto de familias de ordenadores, sistema operativo. (IBM)</li>
+        <li><strong>Cuarta generación(1971-1980):</strong> multiusuario y multitarea, pero la interfaz sigue en modo texto. Sistemas operativos: Windows, MAC.</li>
+        <li><strong>Quinta generación (1981-actual):</strong> empezaban a tener ordenadores personales en casa.</li>
+    </ol>
+
+    <h2>TIPOS DE SISTEMAS OPERATIVOS</h2>
+
+    <p>Se clasifican atendiendo ciertos criterios:</p>
+
+    <ul>
+        <li><strong>Tiempo de respuesta:</strong> todo el tiempo que pasa desde que el usuario pide algo hasta que el ordenador se lo da.</li>
+        <ul>
+            <li><strong>Procesamiento por lotes:</strong> ejecución de trabajos al mismo tiempo, este no tiene un momento específico en el que se cumplan las tareas y las tareas se terminan cuando el equipo es capaz de completarlas.</li>
+            <li><strong>Interactivo:</strong> interactúa con el usuario, el tiempo de respuesta es menor, para ello se utiliza el tiempo compartido.</li>
+            <li><strong>Tiempo real:</strong> el tiempo de respuesta es prácticamente inmediato. Se utiliza en ordenadores de hospitales, transferencias (bancos).</li>
+        </ul>
+        <li><strong>Número de usuarios:</strong> pueden ser uno o muchos (multiusuario)</li>
+        <li><strong>Número de procesos:</strong> uno o varios (simultáneamente).</li>
+        <li><b>Número de procesadores: </b>Monoproceso, Multiprocesador (simétricos y asimétricos)</li>
+        <li>Trabajo en red:
+            <ul>
+                <li>Centralizados: Máquina aislada de la red</li>
+                <li>En red: Se pueden conectar a la red</li>
+                <li>Distribuido: La red pasa desapercibida pero se pueden compartir los recursos</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h1>ESTRUCTURA DE UN SISTEMA OPERATIVO</h1>
+
+    <p>Se pueden dividir en:</p>
+    <ul>
+        <li>Monolíticos: Si falla algo, falla todo.</li>
+        <li>Niveles o capas: Está dividido.</li>
+        <li>Máquina virtual: Simulación de sistema operativo. Es idéntico a la real, multitarea.</li>
+        <li>Cliente/servidor: Software en el que las tareas se reparten entre los proveedores de recursos o servicios, llamados servidores, y los demandantes, llamados clientes.</li>
+    </ul>
+
+    <h2>FUNCIONES</h2>
+
+    <h3>Gestión de proceso:</h3>
+    <ul>
+        <li>FIFO: First Input First Output</li>
+        <li>FCFS: First Come First Served</li>
+        <li>SRTF: Short Remaining Time First</li>
+        <li>Por prioridades
+            <ol type="A">
+                <li>Expulsivo</li>
+                <li>No Expulsivo</li>
+            </ol>
+        </li>
+        <li>RR: Round Robin</li>
+    </ul>
+    <h2>Memo​ria principal</h2>
+    <p>La memoria principal es esencial para ejecutar programas y almacenar datos temporales.</p>
+
+    <h2>Gestión de la memoria en monoprogramación y multiprogramación:</h2>
+    <ul>
+        <li>Protección: Krita utiliza la protección de memoria para evitar que procesos no autorizados accedan a áreas críticas.</li>
+        <li>Particionamiento:
+            <ul>
+                <li>Paginación: Krita organiza la memoria física en porciones de igual tamaño para facilitar el manejo de recursos, pero puede haber fragmentación interna.</li>
+                <li>Segmentación: Krita divide la memoria según las necesidades del programa, lo que puede causar fragmentación externa.</li>
+            </ul>
+        </li>
+        <li>Intercambio</li>
+        <li>Compartición</li>
+        <li>Reubicación</li>
+        <li>Memoria virtual</li>
+        <li>Fragmentación interna o externa</li>
+    </ul>
+    <h1>JERARQUÍA</h1>
+
+    <h2>Gestión de Entrada y Salida</h2>
+    <ul>
+        <li>Interrupción: El hardware produce una señal para alarmar al sistema. Si el procesador está haciendo algo, lo interrumpe.</li>
+        <li>DMA (Acceso directo a memoria): Continuación de la actividad a partir de la interrupción.</li>
+        <li>Caching: Se utiliza para almacenar datos en una memoria rápida de manera temporal para que se acceda más rápidamente a ellos.</li>
+        <li>Buffing: Muy parecido al spooling, solo que estos se guardan para que puedan ser procesados más adelante. Su objetivo es evitar pausas en la lectura o escritura de datos.</li>
+        <li>Spooling: Proceso en el que se introducen los programas en una memoria o en un disco de forma que cualquier dispositivo pueda acceder a ellos.</li>
+    </ul>
+
+    <h2>Gestión de Archivos</h2>
+    <ul>
+        <li>FAT (16,32): Sistema operativo que cuenta con archivos. Las diferencias entre el FAT16 y FAT32 son los nombres de archivos, ya que el 16 no podía pasar el nombre de 8 caracteres.</li>
+        <li>NTFS: Mejora el sistema operativo con seguridad.</li>
+        <li>EXT2,3,4: Sistema operativo de LINUX
+            <ul>
+                <li>Journaling: Fue introducido en EXT3, mejora todo y son compatibles entre los tres.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Gestión de Seguridad</h2>
+    <ul>
+        <li>Seguridad lógica: Una contraseña.</li>
+        <li>Seguridad física: Cableado, cámaras (parte física).</li>
+    </ul>ç
+</body>
+</html>
