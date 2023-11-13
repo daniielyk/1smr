@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  ul, ol {
+    color: #555;
+    margin-left: 20px;
+  }
+  
+  /* Estilos específicos para la sección de Binary system */
+  h2 {
+    color: #0066cc;
+  }
+  
+  /* Estilos específicos para Octal Number System */
+  h2:nth-of-type(3) {
+    color: #009900;
+  }
+  
+  /* Estilos específicos para Representation of Characters */
+  h2:nth-of-type(4) {
+    color: #cc0099;
+  }
+  
+  /* Estilos específicos para ASCII */
+  h3 {
+    color: #cc0099;
+  }
+  
+  /* Estilos específicos para DATA STORAGE */
+  h2:last-of-type {
+    color: #ff9900;
+  }
+  
+  /* Estilos para el enlace en el encabezado */
+  h1 a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid #333;
+  }
+  
+  /* Estilos para los vínculos en el texto */
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
