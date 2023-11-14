@@ -19,29 +19,39 @@
         </a>
         </header>
         <section id="Fifo">
-            <h2> FIFO </h2>
+            <h2> FIFO (First In, First Out) </h2>
             <p> The order is related to when they arrive. </p>
             <img src="../images/FIFO 1.png" alt="FIFO"> <img src="../images/FIFO 2.png" alt="FIFO">
         </section>
         <section id="Sjf">
-            <h2> SJF </h2>
+            <h2> SJF (Short Job First) </h2>
             <p>They order depends on how much time do they take, from the lower to the longer. </p>
             <img src="../images/SJF1.png" alt="SJF"> <img src="../images/SJF2.png" alt="SJF">
         </section>
         <section id="SRTF">
-        <h2> SRTF </h2>
+        <h2> SRTF (Short Remaining Time First) </h2>
+        <p> This algotirithm chooses among the awaiting processes, the one
+            which takes less time to finish. In case of tie/draw, FIFO
+            algorithm applies. <br>
+            This is a preemptive algorithm, so it can produce a change of
+            context, every time that a new process arrives. </p>
         <img src="../images/SRTF1.png" alt="SRTF"> <img src="../images/SRTF2.png" alt="SRTF">
         </section>
         <section id="PNP">
-        <h1> Priority Non Preemptive Algorithm </h1>
+        <h1> Non Preemptive Priority Based Algorithm </h1>
+        <p> It goes in order of priority. </p>
         <img src="../images/non preentive1.png" alt="non preentive"> <img src="../images/non preentive2.png" alt="non preentive" width="500px">
         </section>
         <section id="PP">
-        <h1> Priority Preemptive Algorithm </h1>
+        <h1> Preemptive Priority Algorithm </h1>
+        <p> It goes in order of priority and processes can interrupt others if they have more priority. </p>
         <img src="../images/preentive.png" alt="preentive"> <img src="../images/preentive2.png" alt="Preemptive">
         </section>
         <section id="RR">
         <h1> Round Robin </h1>
+        <p> It needs that the change of context is very fast, because it
+            happens several times. <br>
+            This is a preeptive algorithm.</p>
         <img src="../images/rr.png" alt="round robin"> <img src="../images/rr2.png" width="425px" alt="round robin">
         </section>
     </body>

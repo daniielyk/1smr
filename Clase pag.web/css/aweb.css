@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Orbitron:wght@500&family=Pixelify+Sans&display=swap');
 body {
-    background-color: lightseagreen;
+    background-image: url(/imagenes/awebwall.jpg);
     font-size: 30px;
     text-align: center;
     display: grid;
@@ -32,4 +32,8 @@ a {
     word-spacing: 200px;
     text-decoration: none;
     color: darkblue;
+}
+
+h1 {
+    color: aliceblue;
 }
