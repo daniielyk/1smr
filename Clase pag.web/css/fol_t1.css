@@ -3,27 +3,6 @@ body {
     background-color: rgb(0, 112, 182);
     color: white;
     font-size: 20px;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    margin-left: 450px;
-}
-
-h3 {
-    margin-left: 450px;
-}
-
-p {
-    
-    margin-left: 500px;
-    margin-right: 200px;
-}
-
-ol {
-    margin-left: 450px;
+    padding: 20px;
 }
 
