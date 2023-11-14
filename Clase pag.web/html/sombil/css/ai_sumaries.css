@@ -11,11 +11,11 @@ body {
   }
   
   p {
-    color: #555;
+    color: #000000;
   }
   
   ul, ol {
-    color: #555;
+    color: #000000;
     margin-left: 20px;
   }
   
@@ -41,7 +41,7 @@ body {
   
   /* Estilos específicos para DATA STORAGE */
   h2:last-of-type {
-    color: #ff9900;
+    color: #ffe600;
   }
   
   /* Estilos para el enlace en el encabezado */
