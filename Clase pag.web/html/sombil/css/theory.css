@@ -10,6 +10,8 @@ header {
     text-align: center;
     background-color: rgb(87, 129, 255);
     color: aliceblue;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
 
 a {
