@@ -1,6 +1,16 @@
 
 body {
-    background-color: rgb(196, 255, 244);
+    background: linear-gradient(rgb(164, 164, 255), rgb(230, 161, 255));
     margin: 40px;
     font-size: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(87, 129, 255);
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
 }
