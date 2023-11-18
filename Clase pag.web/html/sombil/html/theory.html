@@ -298,8 +298,30 @@
       <ul>
         <li>Know how every CPU scheduling process works, distinguishing between pre-emptive and non-pre-emptive ones.</li>
         <li>Solve CPU scheduling problems using different algorithms (using Gant's diagram and calculating the response time and the waiting time, as well the average times).</li>
-        <li>Explain what the virtual memory is and the different techniques to manage it.</li>
-        <li>Explain the different methods to manage the I/O.</li>
+        <li>Explain what the virtual memory is and the different techniques to manage it.</li><br>
+        <br>
+        The division into fragments was a tedious task to the programmer. The solution to this problem is virtual memory. The main idea is that if a computer running an operating system needs more
+        memory or RAM than the memory installed in the system then it uses a small portion of the hard drive for this purpose. <br>
+        The techniques used are:
+        <ul>
+          <li><b>Paging: </b> In the Paging method, the main memory is divided into small fixed-size blocks
+            of physical memory, which is called frames. The programs are divided into blocks
+            of the same size called pages. Then you just have to locate the pages of a process
+            in the free memory frames.</li>
+            <li><b>Segmentation: </b> Segmentation method woeks almost similarly to paging, the only difference is that segments are of variable-length whereas, in the paging method, pages are always of fixed size. </li>
+        </ul>
+
+        <li>Explain the different methods to manage the I/O.</li><br>
+        <br>
+        <ul>
+          <li><b>Polling: </b> CPU loses time doing these queries. </li>
+          <li><b>Interrupt controlled I/O: </b>Interrupts are signals sent to the CPU by external devices, normally I/O
+            devices. They tell the CPU to stop its current activities and execute the
+            appropriate task that the I/O devices need. </li>
+          <li><b>Direct Memory Access (DMA): </b> A defined portion of memory is used to send data directly from a peripheral to
+            the motherboard without involving the microprocessor, so that the process
+            does not interfere with overall computer operation. </li>
+        </ul>
       </ul>
     </li>
   </ul>
