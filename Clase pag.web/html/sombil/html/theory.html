@@ -134,20 +134,106 @@
     <h2 id="ut2.1"><strong>Operating systems.docx</strong></h2>
     <a href="../links/Operating systems.docx" download> Download file </a>
       <ul>
-        <li>Explain the operating systems functionalities.</li>
-        <li>Explain the operating systems elements and structure.</li>
-        <li>Mention and briefly explain the operating systems managers.</li>
-        <li>Explain what a process is and their possible states.</li>
-        <li>Explain how a file system can be organised and the file attributes.</li>
-        <li>Explain the types of user interface and the pros and cons of everyone.</li>
-        <li>Mention and briefly explain the main characteristics of an operating
-            system (target device, control system, price usability…)</li>
-        <li>Mention and briefly explain the different operating systems classifications
-            (according to the users’ number, the tasks’ number, and the processors’
-            number).</li>
-        <li>Mention the current operating systems for single user.</li>
+        <li>Explain the operating systems functionalities.</li><br>
+        <br>
+        <ul>
+          <li>
+              <p>It allows the user and other programs to communicate with the hardware, so that they do not have to deal with the complexity of the physical devices.</p>
+              <p>The operating system as a translator:</p>
+              <ul>
+                  <li>Users and programs. It communicates using natural or programming language.</li>
+                  <li>Operating system. Translates user commands so that they can be understood by the hardware.</li>
+                  <li>Hardware. Accepts commands from the operating system and delivers the result.</li>
+              </ul>
+          </li>
+          <li>
+              <p>Manages hardware resources, allocating processors in a controlled manner, through memories, file systems and I/O devices.</p>
+              <p>The operating system as administrator:</p>
+              <ul>
+                  <li>Operating system. It is the orchestra conductor that coordinates all the instruments that make up the orchestra to perform a composition.</li>
+                  <li>Hardware resources. These are the instruments that sound in coordination under the conductor's baton. Some are more audible than others, but all are essential to perform a work.</li>
+              </ul>
+          </li>
+      </ul><br>
+        <li>Explain the operating systems elements and structure.</li><br>
+        <br>
+        <ul>
+          <li><b>The kernel.</b> You have access to all the operations allowed by the hardware.</li>
+          <li><b>The services.</b> The hardware administration is performed based on demand for services, which are requested by applications through a system call interface (APIs such as POSIX or Win32).</li>
+          <li><b>User and application interfaces.</b> They enable communication between the user and the applications and the computer equipment.</li>
+        </ul><br>
+        <li>Mention and briefly explain the operating systems managers.</li><br>
+        
+        <p><b>Interface for applications.</b> A set of interface tools that allow programs to use the hardware resources.</p>
+        <p><b>User interfaces.</b> They provide a command-driven, graphical, or natural language environment for the user to communicate with the operating system.</p><ul>
+            <li><b>Processes.</b> Planning the use of the processor by the processes.</li>
+            <li><b>Memory.</b> Allocating or releasing main memory processes.</li>
+            <li><b>Communication.</b> Enabling communication and synchronisation between processes.</li>
+            <li><b>I/O (input/output).</b> Controlling the input and output of data from peripheral devices.</li>
+            <li><b>File system.</b> Managing secondary storage through directories and files.</li>
+            <li><b>Security.</b> Supervising and monitoring user and application access to the system.</li>
+        </ul><br>
+        <li>Explain what a process is and their possible states.</li><br>
+        <br>
+          <ul>
+            <li><b> Execution: </b> Running on the processor. </li>
+            <li><b> Ready: </b> It can be switched to run status if selected by the planner. </li>
+            <li><b> Blocked: </b> Waiting for a response from another process in order to be able to continue with its execution. </li>
+          </ul><br>
+        <li>Explain how a file system can be organised and the file attributes.</li><br>
+        <br>
+        From the user's point of view, therefore, it is the most visible function of the operating system, providing the tools necessary for storage and access of both data and programs.
+        Generally, related files are organised in directories or folders, which, in turn, may contain other directories and files, forming a hierarchical tree structure. <br>
+        <b>Attributes:</b>
+        <ul>
+          <li> Name </li>
+          <li> Type </li>
+          <li> Size </li>
+          <li> Location </li>
+          <li> Permissions </li>
+          <li> Time </li>
+        </ul><br>
+        <li>Explain the types of user interface and the pros and cons of everyone.</li><br>
+        <br>
+        <ul>
+          <li>
+              <strong>Target device:</strong>
+              <ul>
+                  <li>Personal computer. Also called desktop, for common tasks such as Internet browsing, office work or leisure activities.</li>
+                  <li>Server Optimised for remote user management, network services, security, and business process-oriented tools.</li>
+                  <li>Mobile device (smartphone, tablet, etc.). Adapted to consider the hardware resources of mobile devices, such as processor, battery, touch screen, etc.</li>
+              </ul>
+          </li>
+          <li>
+              <strong>Control system:</strong>
+              <ul>
+                  <li>Embedded. Dedicated to performing control tasks that require extreme reliability for uninterrupted operations in an unattended environment, such as controlling a lift or room temperature.</li>
+                  <li>Real-time. Systems that must respond to events within a given time interval, such as a car's airbag control system.</li>
+              </ul>
+          </li>
+          <li><b>Price:</b> in certain professional environments, it is a major constraint on the ability to select an operating system.</li>
+          <li><b>Usability:</b> through intuitive and comfortable interfaces that allow the user to perform their tasks in a simple and effective way.</li>
+          <li><b>Efficiency:</b> the operating system must be able to squeeze the maximum out of the computer's hardware resources.</li>
+          <li><b>Compatibility.</b> Some software is not supported by certain operating systems. The same applies to hardware.</li>
+          <ul>
+          <li>Indicates what can and cannot be done with the operating system, such as distribution, modifications, etc.</li>
+        </ul>
+          <li><b>Security:</b> No operating system is immune to a computer attack and its damaging consequences, so it is important that the system incorporates security mechanisms for users and programs accessing the system.</li>
+          <li><b>Upgrading:</b> A frequently updated operating system is a system that adapts to the new requirements of the software and the hardware, as well as being more robust, reliable, and secure.</li>
+          <li><b>Support:</b> allows you to solve technical problems or queries quickly and easily.</li>
+          <li><b>Live version:</b> provides the ability to run the operating system without having to install it on the hard disk.</li>
+        </ul><br>
+        <li>Mention and briefly explain the main characteristics of an operating system (target device, control system, price usability…)</li><br>
+        <br>
+
+        <li>Mention and briefly explain the different operating systems classifications (according to the users’ number, the tasks’ number, and the processors’ number).</li><br>
+        <br>
+
+        <li>Mention the current operating systems for single user.</li><br>
+        <br>
+
       </ul>
-    </li>
+    </li><br><hr><br>
     <li id="ut2.2">
       <strong>UT02 Operating systems.pdf and UT02_2_CPU Scheduling.pdf</strong><br>
       <a href="../links/UT02 Operating systems.pdf" download> Download OS file </a><br>
