@@ -6,6 +6,7 @@ body {
     display: grid;
     padding: 20px;
     font-family: 'Orbitron', sans-serif;
+    justify-content: center;
 }
 a:hover {
     transform: scale(1.1);
