@@ -1,6 +1,6 @@
 
 body {
-    background-color: aquamarine;
+    background-color: rgb(203, 203, 203);
     color: rgb(0, 0, 0);
     padding: 20px;
     font-size: 20px;
@@ -8,4 +8,11 @@ body {
 
 a {
     color: rgb(0, 54, 101);
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
 }
