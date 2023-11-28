@@ -1,7 +1,7 @@
 
 body {
-    background-color: rgb(0, 112, 182);
-    color: white;
+    background: linear-gradient(lightblue, rgb(145, 145, 255));
+    color: rgb(0, 0, 0);
     font-size: 20px;
     padding: 20px;
 }
