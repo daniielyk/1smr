@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    color: rgb(210, 255, 214);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -18,22 +18,16 @@ h1 {
     color: aquamarine;
 }
 
-#miDiv {
-    width: 1000px;
-    background-color: rgb(30, 168, 111);
-    overflow: hidden;
-    transition: height 0.2s; /* Agregamos una transición suave para un efecto animado */
-    border-radius: 20px;
+div {
+    margin: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
     text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
-#linksDiv {
-    height: 0;
-    overflow: hidden;
-}
-
-#miDiv:hover #linksDiv {
-    height: 40px; /* Cambia la altura al pasar el cursor sobre el div */
+div:hover {
+    transform: scale(50%);
     transition: 0.5s;
-    padding: 30px;
 }
