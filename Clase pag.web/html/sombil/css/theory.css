@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
 body {
-    background: linear-gradient(rgb(164, 164, 255), rgb(230, 161, 255));
+    background-color: rgb(164, 164, 255);
     margin: 40px;
     font-size: 20px;
     font-family: 'Exo 2', sans-serif;
