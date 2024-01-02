@@ -28,6 +28,6 @@ div {
 }
 
 div:hover {
-    transform: scale(50%);
+    transform: scale(150%);
     transition: 0.5s;
 }
