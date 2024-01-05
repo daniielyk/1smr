@@ -15,5 +15,31 @@
   <p>Identifica elementos dentro de una LAN con direcciones MAC. Son 48 bits (24 de la IEEE y 24 del fabricante).</p>
   <p><strong>Direccionamiento a nivel de Red</strong></p>
   <p>Se llaman direcciones lógicas. La relación con la dirección física no es fija, sino que puede cambiar con la configuración de la máquina o nodo. Suelen tener una estructura jerárquica.</p>
+  <h2>Tipos de topología</h2>
+  <h3>Física:</h3>
+  <p>Disposición geográfica de los equipos y el cableado de red. Determina el rendimiento y la funcionalidad de la red. Ejemplos: Número de máquinas a interconectar, tipo de medio físico, naturaleza de las señales...</p>
+  <h3>Lógica:</h3>
+  <p>Forma en que las máquinas se comunican a través del medio físico. Las más comunes son Broadcast y Tokens (o paso de testigo).</p>
+  <h2>Topologías físicas (bus)</h2>
+  <h3>Características:</h3>
+  <ul>
+    <li>Los mensajes circulan en ambas direcciones.</li>
+    <li>No hay ningún nodo central que controle la red.</li>
+    <li>La información se transmite por todo el bus y para evitar interferencias usa protocolos de acceso al bus y detección de colisiones.</li>
+  </ul>
+  <h3>Ventajas:</h3>
+  <ul>
+    <li>Sencillez y bajo coste.</li>
+    <li>Es sencillo añadir nuevos nodos.</li>
+    <li>Puede segmentarse mediante repetidores.</li>
+  </ul>
+  <h3>Inconvenientes:</h3>
+  <ul>
+    <li>La rotura del cable principal dejaría sin servicio a todos los dispositivos de la red.</li>
+    <li>Es muy sensible a problemas en el cable o en las conexiones de los nodos con la red.</li>
+    <li>Es difícil detectar el origen cuando la red se cae.</li>
+    <li>Con muchas computadoras la eficiencia baja notablemente.</li>
+    <li>Es posible que dos computadoras intenten transmitir al mismo tiempo provocando lo que se denomina “colisión”, produciendo un reintento de transmisión.</li>
+  </ul>
 </body>
 </html>
